@@ -1,0 +1,185 @@
+========================================
+DERIV HR POLICY HANDBOOK
+Multi-Jurisdiction Employee Guide
+Last Updated: February 2026
+========================================
+
+=== ANNUAL LEAVE POLICY ===
+
+All full-time employees receive 25 days of paid annual leave per calendar year, prorated for mid-year joiners.
+
+Leave Entitlement by Location:
+- Cyberjaya (Malaysia): 25 days annual + 11 public holidays
+- Labuan (Malaysia): 25 days annual + 11 public holidays
+- Dubai (UAE): 25 days annual + 10 public holidays (Islamic holidays vary by moon sighting)
+- Malta (EU): 25 days annual + 14 public holidays
+
+Carry-Over: Up to 5 unused days may be carried to the next year. Unused days beyond 5 expire on March 31.
+Encashment: Not permitted. Employees are encouraged to take their full entitlement.
+Approval: Leave requests require direct manager approval via the HRIS at least 5 business days in advance. Requests over 5 consecutive days require 2 weeks notice.
+Half-Days: Half-day leave is permitted. Minimum leave unit is half a day.
+
+Sick Leave:
+- All locations: 14 days paid sick leave per year.
+- Medical certificate required for absences of 3+ consecutive days.
+- Malaysia: Additional 60 days hospitalization leave per Employment Act.
+
+Parental Leave:
+- Maternity: 90 days paid (all locations). UAE: 60 days full pay + 15 half pay. Malaysia: 98 days per Employment Act.
+- Paternity: 10 days paid (all locations).
+- Adoption: 60 days paid leave for primary caregiver.
+
+Compassionate Leave: 3 days for death of immediate family member (parent, spouse, child, sibling).
+
+=== EXPENSE POLICY ===
+
+Eligible Expenses:
+- Business travel (flights, hotels, ground transport)
+- Client entertainment (pre-approved, max $150/person)
+- Professional development (conferences, courses — up to $2,000/year with manager approval)
+- Coworking space: Up to $300/month for remote employees with approved remote work agreement
+- Home office equipment: One-time $500 setup allowance for new hires
+- Mobile phone: $50/month reimbursement for roles requiring constant availability
+- Gym/wellness: Up to $100/month under Wellness Benefit (receipts required)
+
+Submission Process:
+- Submit via Concur expense system within 30 days of expense
+- All receipts must be attached digitally
+- Expenses over $500 require pre-approval from department head
+- International expenses: Convert to USD at date-of-transaction rate
+
+Per Diem Rates (Business Travel):
+- Cyberjaya: $60/day
+- Dubai: $100/day
+- Malta: $80/day
+- Labuan: $50/day
+- Other locations: Refer to company travel policy on intranet
+
+Non-Eligible Expenses:
+- Personal travel upgrades
+- Alcohol (unless part of approved client entertainment)
+- Personal subscriptions
+- Parking fines or traffic violations
+
+=== BENEFITS ===
+
+Health Insurance:
+- All employees and dependents covered under company group health plan
+- Coverage begins on first day of employment
+- Includes: medical, dental, vision, mental health counseling (12 sessions/year)
+- Dependents: Spouse and children under 21 (under 25 if full-time students)
+
+Life Insurance: 4x annual salary, company-paid.
+
+Retirement/Pension:
+- Malaysia (EPF): Company contributes 13% of salary (statutory minimum 12% + 1% additional)
+- UAE: End of Service Gratuity per UAE Labour Law (21 days salary per year for first 5 years, 30 days after)
+- Malta: Company contributes 10% to private pension scheme
+- All locations: Optional salary sacrifice pension top-up available
+
+Employee Stock Options:
+- Eligible after 1 year of employment
+- Standard grant: Varies by level and role
+- Vesting: 4-year schedule with 1-year cliff (25% vests after year 1, then monthly)
+- Exercise window: 90 days after departure
+
+Wellness Benefits:
+- $100/month gym/fitness reimbursement
+- Annual health screening (company-paid)
+- Mental health support: 12 free counseling sessions via EAP
+- Flexible Fridays: Early finish at 4 PM on Fridays
+
+=== PROMOTION & CAREER GROWTH ===
+
+Promotion Eligibility:
+- Minimum 12 months in current role
+- Meets or exceeds performance expectations in most recent 2 review cycles
+- Demonstrates competencies of the next level
+- Manager recommendation required
+- Calibration review by department head and HR
+
+Review Cycles:
+- Performance reviews: Semi-annual (June and December)
+- Promotion windows: January and July
+- Compensation adjustments: Annual in January, aligned with market data
+
+Career Development:
+- $2,000 annual learning budget per employee
+- Internal mobility: Employees may apply for internal roles after 12 months
+- Mentorship program available to all employees
+- Leadership development track for senior individual contributors
+
+=== REMOTE WORK POLICY ===
+
+Hybrid Model: Employees work from office Tuesday-Thursday, remote Monday and Friday.
+Fully Remote: Available for approved roles. Requires signed Remote Work Agreement.
+
+Requirements:
+- Reliable internet (minimum 50 Mbps)
+- Secure, private workspace
+- Available during core hours (10 AM - 4 PM local time)
+- Camera on for video calls by default
+
+Equipment: Company provides laptop. Monitor and peripherals via $500 setup allowance.
+Coworking: $300/month reimbursement for approved coworking spaces.
+
+Cross-Border Remote Work:
+- Maximum 30 days per year working from a different country
+- Requires pre-approval from HR (tax and visa implications)
+- Not permitted from sanctioned countries
+
+=== ONBOARDING PROCESS ===
+
+Before Day 1:
+- Offer letter signed → HR generates employment contract, NDA, equity documents
+- IT provisions laptop, email, system access
+- Manager assigns onboarding buddy
+- Calendar invitations for first week sent automatically
+
+Day 1:
+- Welcome session with HR (company overview, policies, benefits enrollment)
+- IT equipment handover and setup
+- Meet with manager: 90-day goals, team intro
+- Security badge and office tour
+
+First 30 Days:
+- Complete all mandatory training (Safety, Data Privacy, AML if applicable)
+- 1:1 with manager weekly
+- Meet key stakeholders across departments
+
+90-Day Review:
+- Manager and new hire review 90-day goals
+- Feedback session
+- Confirm continued employment (probation ends)
+
+=== COMPLIANCE & LEGAL ===
+
+Work Authorization:
+- All employees must maintain valid work authorization for their location
+- HR tracks visa/work permit expiries and initiates renewal 90 days before expiry
+- Employees must notify HR immediately of any changes to immigration status
+
+Certifications:
+- Safety Training: Mandatory for ALL employees. Annual renewal.
+- Anti-Money Laundering (AML): Mandatory for Finance and Compliance departments. Annual renewal.
+- GDPR/Data Privacy: Mandatory for all employees handling personal data. Annual renewal.
+- Fire Safety: Mandatory for UAE and Malta offices per local regulations.
+- HR Compliance: Required for all HR department staff.
+
+Equipment:
+- Company equipment must be returned within 14 days of role change or departure
+- Security tokens must be returned immediately upon expiry — unreturned tokens are a security incident
+- IT equipment audited quarterly
+
+Confidentiality:
+- All employees sign NDA on hire
+- Company information must not be shared externally without authorization
+- Client data subject to additional handling requirements per data classification policy
+
+=== CONTACT INFORMATION ===
+
+HR General Inquiries: hr@deriv.com
+IT Support: support@deriv.com | (555) 123-4567
+Payroll Questions: payroll@deriv.com
+Benefits Administration: benefits@deriv.com
+Compliance Hotline: compliance@deriv.com (anonymous reporting available)

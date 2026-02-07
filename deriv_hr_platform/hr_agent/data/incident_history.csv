@@ -1,0 +1,7 @@
+incident_id,date,employee_id,category,description,resolution_days,cost_impact_usd,outcome
+INC001,2024-08-15,E110,visa,Work permit expired while employee was on project in Labuan. Emergency legal intervention required.,21,8500,Resolved with fine
+INC002,2024-11-20,E106,cert,Safety training lapsed. Employee denied office access for 3 days pending emergency recertification.,5,2200,Resolved with lost productivity
+INC003,2025-01-10,E102,equipment,Laptop not returned after department transfer. Asset recovery team dispatched.,14,0,Equipment recovered
+INC004,2024-06-30,E103,cert,Regulatory Compliance L2 expired. Compliance department audit capacity reduced by 33% for 2 weeks.,18,12000,Emergency external auditor hired
+INC005,2025-03-01,E115,equipment,MacBook Air overdue return. IT flagged as potential data security risk.,7,500,Returned with data wipe
+INC006,2024-09-12,E104,equipment,MacBook Pro not returned from Malta office. Cross-border asset recovery initiated.,30,1200,Still in recovery

@@ -1,0 +1,14 @@
+employee_id,visa_type,issue_date,expiry_date,status,country_of_issue
+E101,Work Permit B1,2024-03-01,2026-02-28,Active,Malaysia
+E103,Employment Visa,2024-06-15,2026-03-15,Active,UAE
+E104,Work Permit EU,2023-01-10,2026-04-10,Active,Malta
+E105,Employment Visa,2024-04-18,2026-02-10,Active,UAE
+E106,Work Permit B1,2023-08-30,2026-06-30,Active,Malaysia
+E108,Employment Visa,2024-06-01,2026-03-01,Active,UAE
+E109,Work Permit B1,2024-09-12,2026-09-12,Active,Malaysia
+E110,Work Permit,2022-12-20,2025-12-20,Expired,Malaysia
+E112,Work Permit EU,2023-11-08,2026-02-15,Active,Malta
+E114,Work Permit B1,2024-01-30,2026-01-30,Expired,Malaysia
+E115,Employment Visa,2023-08-11,2026-08-11,Active,UAE
+E116,Work Permit EU,2024-10-05,2026-10-05,Active,Malta
+E119,Employment Visa,2024-07-08,2026-03-10,Active,UAE

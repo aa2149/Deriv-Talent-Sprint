@@ -1,0 +1,19 @@
+record_id,employee_id,doc_type,stored_at,captured_date,verified
+A001,E101,Visa Copy,audit_docs/E101_visa.pdf,2024-03-01,True
+A002,E101,Safety Training Cert,audit_docs/E101_safety_cert.pdf,2024-06-01,True
+A003,E103,Visa Copy,audit_docs/E103_visa.pdf,2024-06-15,True
+A004,E103,Compliance L2 Cert,audit_docs/E103_compliance_cert.pdf,2023-12-01,True
+A005,E104,Visa Copy,audit_docs/E104_visa.pdf,2023-01-10,True
+A006,E105,Visa Copy,audit_docs/E105_visa.pdf,2024-04-18,True
+A007,E106,Visa Copy,audit_docs/E106_visa.pdf,2023-08-30,True
+A008,E106,Cybersecurity Cert,audit_docs/E106_cyber_cert.pdf,2024-08-01,True
+A009,E108,Visa Copy,audit_docs/E108_visa.pdf,2024-06-01,True
+A010,E108,AML Cert,audit_docs/E108_aml_cert.pdf,2024-01-15,True
+A011,E110,Visa Copy,audit_docs/E110_visa.pdf,2022-12-20,True
+A012,E110,Equipment Handling Cert,audit_docs/E110_equip_cert.pdf,2023-06-15,True
+A013,E112,Visa Copy,audit_docs/E112_visa.pdf,2023-11-08,True
+A014,E114,Visa Copy,audit_docs/E114_visa.pdf,2024-01-30,True
+A015,E114,AML Cert,audit_docs/E114_aml_cert.pdf,2024-06-30,True
+A016,E115,Visa Copy,audit_docs/E115_visa.pdf,2023-08-11,True
+A017,E119,Visa Copy,audit_docs/E119_visa.pdf,2024-07-08,True
+A018,E120,HR Compliance Cert,audit_docs/E120_hr_cert.pdf,2024-01-19,True

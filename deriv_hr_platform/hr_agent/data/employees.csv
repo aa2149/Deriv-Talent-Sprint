@@ -1,0 +1,21 @@
+employee_id,name,hire_date,email,department,location,manager_id
+E101,Alice Lee,2021-03-15,alice.lee@deriv.com,Engineering,Cyberjaya,E107
+E102,Bob Chen,2020-07-22,bob.chen@deriv.com,Finance,Labuan,E113
+E103,Priya Sharma,2022-01-10,priya.sharma@deriv.com,Compliance,Dubai,E111
+E104,James Wilson,2019-11-05,james.wilson@deriv.com,Engineering,Malta,E107
+E105,Fatima Al-Hassan,2023-04-18,fatima.alhassan@deriv.com,Operations,Dubai,E115
+E106,David Kim,2021-08-30,david.kim@deriv.com,Engineering,Cyberjaya,E107
+E107,Sarah Johnson,2020-02-14,sarah.johnson@deriv.com,HR,Malta,E107
+E108,Mohammed Rashid,2022-06-01,mohammed.rashid@deriv.com,Finance,Dubai,E113
+E109,Lisa Wang,2023-09-12,lisa.wang@deriv.com,Engineering,Cyberjaya,E107
+E110,Tom Baker,2018-12-20,tom.baker@deriv.com,Operations,Labuan,E115
+E111,Anika Patel,2021-05-25,anika.patel@deriv.com,Compliance,Dubai,E111
+E112,Carlos Rivera,2022-11-08,carlos.rivera@deriv.com,Engineering,Malta,E107
+E113,Emma Thompson,2020-04-17,emma.thompson@deriv.com,HR,Labuan,E107
+E114,Yuki Tanaka,2023-01-30,yuki.tanaka@deriv.com,Finance,Cyberjaya,E113
+E115,Omar Farouk,2019-08-11,omar.farouk@deriv.com,Operations,Dubai,E115
+E116,Rachel Green,2021-10-05,rachel.green@deriv.com,Engineering,Malta,E107
+E117,Arjun Mehta,2022-03-22,arjun.mehta@deriv.com,Compliance,Cyberjaya,E111
+E118,Sophie Martin,2020-09-14,sophie.martin@deriv.com,Finance,Labuan,E113
+E119,Daniel Okafor,2023-07-08,daniel.okafor@deriv.com,Engineering,Dubai,E107
+E120,Maria Santos,2021-01-19,maria.santos@deriv.com,HR,Cyberjaya,E107

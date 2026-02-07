@@ -1,0 +1,18 @@
+employee_id,asset_id,asset_name,loan_date,return_due,status,asset_category
+E101,A001,Laptop-Dell-XPS15,2024-03-15,2026-03-15,Active,IT Equipment
+E102,A002,Laptop-HP-Elite,2024-07-22,2025-07-22,Overdue,IT Equipment
+E103,A003,Security Token RSA,2024-01-10,2026-01-10,Overdue,Security Device
+E104,A004,Laptop-MacBook-Pro,2023-11-05,2025-11-05,Overdue,IT Equipment
+E105,A005,Mobile-iPhone14,2024-04-18,2026-04-18,Active,Mobile Device
+E106,A006,Laptop-Lenovo-T14,2024-08-30,2026-08-30,Active,IT Equipment
+E107,A007,Security Token RSA,2024-02-14,2026-02-14,Active,Security Device
+E108,A008,Laptop-Dell-XPS13,2024-06-01,2026-06-01,Active,IT Equipment
+E109,A009,Monitor-LG-27,2024-09-12,2026-09-12,Active,IT Equipment
+E110,A010,Laptop-HP-Elite,2023-12-20,2025-12-20,Overdue,IT Equipment
+E111,A011,Security Token RSA,2024-05-25,2026-05-25,Active,Security Device
+E112,A012,Laptop-Dell-XPS15,2024-11-08,2026-11-08,Active,IT Equipment
+E113,A013,Mobile-Samsung-S24,2024-04-17,2026-04-17,Active,Mobile Device
+E115,A014,Laptop-MacBook-Air,2023-08-11,2025-08-11,Overdue,IT Equipment
+E117,A015,Security Token RSA,2024-03-22,2026-03-22,Active,Security Device
+E119,A016,Laptop-Lenovo-T14,2024-07-08,2026-02-08,Active,IT Equipment
+E120,A017,Monitor-Dell-24,2024-01-19,2026-01-19,Overdue,IT Equipment

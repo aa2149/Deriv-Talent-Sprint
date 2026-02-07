@@ -1,0 +1,85 @@
+========================================
+DERIV CONTRACT TEMPLATES & LEGAL CLAUSES
+By Jurisdiction
+========================================
+
+=== MALAYSIA (Cyberjaya / Labuan) ===
+
+Governing Law: Employment Act 1955 (Peninsular Malaysia), Sabah Labour Ordinance (Labuan)
+Language: English
+Currency: MYR
+Probation: 3 months (extendable to 6)
+Notice Period: 1 month (during probation: 2 weeks)
+EPF: Employer 13%, Employee 11%
+SOCSO: Employer contribution per statutory rates
+EIS: 0.2% employer, 0.2% employee
+Working Hours: 45 hours/week maximum (Employment Act Amendment 2022)
+Overtime: 1.5x for normal days, 2x for rest days, 3x for public holidays
+Termination: Per Employment Act provisions. Retrenchment requires LIFO principle and notification to Labour Department.
+Non-Compete: Generally unenforceable in Malaysia. Use non-solicitation instead (12 months max).
+Annual Leave: Minimum 8 days (1-2 years), 12 days (2-5 years), 16 days (5+ years). Deriv provides 25 days for all.
+Maternity: 98 consecutive days per Employment Act. Deriv provides 90 days at full pay.
+Paternity: 7 days per Employment Act. Deriv provides 10 days.
+
+=== UAE (Dubai) ===
+
+Governing Law: UAE Federal Decree-Law No. 33 of 2021 (New Labour Law)
+Language: English and Arabic (Arabic prevails in disputes)
+Currency: AED
+Probation: 6 months maximum
+Notice Period: 30 days minimum (during probation: 14 days)
+WPS: Wages Protection System compliance required
+Gratuity: 21 days basic salary per year (first 5 years), 30 days per year (after 5 years)
+Working Hours: 8 hours/day, 48 hours/week. Ramadan: 6 hours/day.
+Overtime: 1.25x normal rate (daytime), 1.5x (nighttime 10PM-4AM)
+MOHRE: Employment contract must be registered with Ministry of Human Resources and Emiratisation
+Work Permit: Employer sponsors employee visa. Renewal 30-60 days before expiry.
+Non-Compete: Enforceable for max 2 years if reasonable in scope and geography.
+Annual Leave: 30 calendar days per UAE Labour Law (after 1 year). Deriv provides 25 working days.
+Maternity: 60 days (45 full pay + 15 half pay per UAE Law). Deriv tops up to 90 days full pay.
+Paternity: 5 working days per UAE Law. Deriv provides 10 days.
+End of Contract: Limited vs Unlimited contracts. Deriv uses unlimited contracts.
+
+=== MALTA (EU) ===
+
+Governing Law: Employment and Industrial Relations Act (EIRA), Chapter 452
+Language: English
+Currency: EUR
+Probation: 6 months (12 months for roles with annual salary > €25,000)
+Notice Period: 1 week per year of service (minimum 1 week, maximum 12 weeks)
+Social Security: Employer contributes 10% of gross salary
+Tax: Progressive income tax (0%-35%)
+Working Hours: 40 hours/week. Maximum 48 hours/week (EU Working Time Directive)
+Overtime: Per collective agreement or individual contract
+GDPR: Full EU GDPR compliance required for all employee data processing
+Non-Compete: Enforceable if reasonable (typically 6-12 months, limited geography)
+Annual Leave: 192 hours (24 working days) minimum per EIRA. Deriv provides 25 days.
+Maternity: 18 weeks (14 weeks full pay from government + Deriv tops up). Deriv provides 90 days full pay.
+Paternity: 10 working days (2 days paid by employer, 8 from government). Deriv provides 10 days full pay.
+Sick Leave: Per medical certificate. Employer pays first 3 days, then government Social Security.
+
+=== EQUITY GRANT STANDARD TERMS ===
+
+Option Type: Incentive Stock Options (where applicable) or Non-Qualified Stock Options
+Vesting Schedule: 4-year monthly vesting with 1-year cliff
+- Year 1: 25% vests on 1-year anniversary
+- Years 2-4: Remaining 75% vests monthly (2.083% per month)
+Exercise Price: Fair Market Value on grant date
+Exercise Window: 90 days post-termination (extended to 12 months for good leavers with 4+ years tenure)
+Accelerated Vesting: 100% on Change of Control (double-trigger)
+Clawback: Options subject to clawback in cases of gross misconduct
+
+Standard Grant Ranges by Level:
+- Junior (L1-L2): 1,000 - 5,000 options
+- Mid (L3-L4): 5,000 - 15,000 options
+- Senior (L5-L6): 15,000 - 40,000 options
+- Lead/Principal (L7+): 40,000 - 100,000 options
+- Director+: Per board approval
+
+=== NDA STANDARD TERMS ===
+
+Duration: Confidentiality obligations survive termination indefinitely for trade secrets, 3 years for other confidential information.
+Scope: All non-public company information, client data, technical know-how, business strategies, financial data.
+Exclusions: Information that becomes public through no fault of employee, information independently developed, information received from third party without restriction.
+Remedies: Injunctive relief + damages. Employee acknowledges monetary damages may be insufficient.
+Return of Materials: All company materials (physical and digital) must be returned on termination.

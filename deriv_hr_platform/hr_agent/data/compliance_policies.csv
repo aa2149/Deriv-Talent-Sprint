@@ -1,0 +1,11 @@
+policy_id,jurisdiction,category,rule,severity_multiplier,description
+P001,UAE,visa,renewal_must_start_90_days_before_expiry,1.5,"UAE requires visa renewal applications to be submitted at least 90 days before expiry. Late submissions may result in fines of AED 100/day and potential deportation orders."
+P002,Malta,visa,eu_work_permit_renewal_60_days,1.2,"EU work permits in Malta must be renewed 60 days before expiry. Failure to renew results in automatic work authorization suspension."
+P003,Malaysia,visa,work_permit_b1_renewal_30_days,1.0,"Malaysian Work Permit B1 must be renewed at least 30 days before expiry. Overstay penalties apply at MYR 500/day."
+P004,ALL,cert,safety_training_mandatory_all_staff,1.3,"Safety training certification is mandatory for ALL employees regardless of role. Expired safety certs mean the employee cannot access office premises."
+P005,ALL,cert,aml_mandatory_finance_compliance,1.8,"Anti-Money Laundering certification is MANDATORY for Finance and Compliance department staff. Lapsed AML certs trigger regulatory reporting obligations and potential license risk."
+P006,UAE,cert,fire_safety_local_authority_requirement,1.4,"UAE local authorities require valid fire safety certification for all operations staff. Non-compliance can result in facility shutdown orders."
+P007,ALL,equipment,security_token_immediate_return,2.0,"Security tokens (RSA/hardware keys) must be returned immediately upon expiry. Unreturned security devices constitute a cybersecurity breach requiring incident reporting."
+P008,ALL,equipment,laptop_return_within_grace_period,0.8,"IT equipment (laptops, monitors) has a 14-day grace period after return_due date before escalation to asset recovery."
+P009,ALL,cert,regulatory_compliance_l2_required_for_compliance_dept,1.6,"Regulatory Compliance Level 2 certification is required for all Compliance department staff. Lapsed certification means the employee cannot perform compliance audit functions."
+P010,ALL,cert,hr_compliance_required_for_hr_dept,1.4,"HR Compliance certification is required for all HR department staff. Without valid certification, HR staff cannot process sensitive employee data or handle disciplinary matters."

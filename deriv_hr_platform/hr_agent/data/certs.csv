@@ -1,0 +1,23 @@
+employee_id,cert_name,completed_date,expiry_date,status,issuing_body
+E101,Safety Training,2024-06-01,2025-06-01,Expired,Internal
+E101,Data Privacy GDPR,2024-09-15,2026-09-15,Active,Compliance Dept
+E102,Anti-Money Laundering,2024-03-10,2026-03-10,Active,Compliance Dept
+E103,Regulatory Compliance L2,2023-12-01,2025-12-01,Expired,External Auditor
+E104,Safety Training,2025-01-15,2027-01-15,Active,Internal
+E105,Fire Safety,2024-02-20,2026-02-20,Active,Local Authority
+E106,Safety Training,2024-04-10,2025-04-10,Expired,Internal
+E106,Cybersecurity Basics,2024-08-01,2026-08-01,Active,IT Dept
+E107,HR Compliance Cert,2024-05-20,2026-05-20,Active,HR Institute
+E108,Anti-Money Laundering,2024-01-15,2026-01-15,Expired,Compliance Dept
+E109,Safety Training,2025-01-01,2027-01-01,Active,Internal
+E110,Equipment Handling,2023-06-15,2025-06-15,Expired,Operations
+E111,Regulatory Compliance L2,2024-07-01,2026-07-01,Active,External Auditor
+E112,Safety Training,2024-11-08,2026-02-08,Active,Internal
+E113,HR Compliance Cert,2024-04-17,2026-04-17,Active,HR Institute
+E114,Anti-Money Laundering,2024-06-30,2026-02-28,Active,Compliance Dept
+E115,Fire Safety,2024-08-11,2026-03-11,Active,Local Authority
+E116,Safety Training,2024-10-05,2026-10-05,Active,Internal
+E117,Regulatory Compliance L2,2024-03-22,2026-03-22,Active,External Auditor
+E118,Anti-Money Laundering,2024-09-14,2026-09-14,Active,Compliance Dept
+E119,Safety Training,2024-07-08,2026-07-08,Active,Internal
+E120,HR Compliance Cert,2024-01-19,2026-01-19,Expired,HR Institute
