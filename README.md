@@ -27,7 +27,7 @@ A **3-phase AI platform** that automates HR operations, built on Google ADK + Ge
 | Phase | What it does | Key AI Feature |
 |-------|-------------|----------------|
 | **📄 Phase 1** | Auto-generates contracts, offer letters, NDAs, and equity grants | Jurisdiction-aware clause generation (UAE ≠ Malaysia ≠ Malta) |
-| **💬 Phase 2** | Slack bot answers HR queries instantly | RAG over HR handbook using Gemini File Search |
+| **💬 Phase 2** | Slack bot answers HR queries instantly | RAG over HR handbook using Gemini File Search | https://github.com/imaadMMI/Slack-Gemini-AI-Agent 
 | **🛡 Phase 3** | Autonomous compliance agent monitors operations | Cross-correlates risk, applies jurisdiction severity, projects financial exposure |
 
 **Before vs After:**
