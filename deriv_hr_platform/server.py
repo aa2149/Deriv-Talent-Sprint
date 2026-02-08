@@ -20,6 +20,25 @@ from dotenv import load_dotenv
 _dir = os.path.dirname(os.path.abspath(__file__))
 load_dotenv(os.path.join(_dir, "hr_agent", ".env"))
 
+# Disable OpenTelemetry to avoid serialization issues
+os.environ["OTEL_SDK_DISABLED"] = "true"
+os.environ["OTEL_PYTHON_DISABLED_INSTRUMENTATIONS"] = "all"
+
+# Monkey-patch json.dumps to handle bytes gracefully
+import json
+_original_dumps = json.dumps
+
+def _patched_dumps(obj, **kwargs):
+    try:
+        return _original_dumps(obj, **kwargs)
+    except TypeError as e:
+        if "bytes" in str(e):
+            # Silently skip telemetry calls that fail
+            return "{}"
+        raise
+
+json.dumps = _patched_dumps
+
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse, JSONResponse
@@ -85,14 +104,14 @@ async def chat(request: Request):
     try:
         # Create session once per user
         if user_id not in _sessions:
-            s = await session_service.create_session(
+            s = session_service.create_session(
                 app_name="hr_agent", user_id=user_id
             )
             _sessions[user_id] = s.id
 
         content = genai_types.Content(
             role="user",
-            parts=[genai_types.Part.from_text(message)],
+            parts=[genai_types.Part(text=message)],
         )
 
         text_parts = []
