@@ -14,6 +14,9 @@ hotfix-env.sh
 secure-setup.sh
 SECURITY_FIX.md
 DEPLOYMENT_FIX.md
+ADD_API_RESTRICTIONS.md
+QUICK_FIX.md
+WHY_NEW_KEY_REQUIRED.md
 
 # Python
 __pycache__/

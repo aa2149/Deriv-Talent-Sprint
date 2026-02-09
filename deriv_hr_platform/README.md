@@ -2,7 +2,9 @@
 
 **Deriv AI Talent Sprint 2026 · HR & Operations Challenge**
 
-> *Build an AI-powered self-service platform where contracts generate themselves, queries answer themselves, and HR operations become invisible.*
+> *An AI-powered self-service platform where contracts generate themselves, queries answer themselves, and HR operations become invisible.*
+
+🌐 **Live Demo:** https://deriv-hr-platform-520393715152.africa-south1.run.app
 
 ---
 
@@ -82,70 +84,49 @@ http://localhost:8080
 
 - Google Cloud account with a project
 - `gcloud` CLI installed (`brew install google-cloud-sdk` or https://cloud.google.com/sdk/docs/install)
-- Docker Desktop running (or use Cloud Build)
+- Google Gemini API key from https://aistudio.google.com/apikey
 
-### Option A: Deploy with Cloud Build (no local Docker needed)
+### Deploy with Cloud Build
 
 ```bash
-cd deriv_hr
-
 # Authenticate
 gcloud auth login
 gcloud config set project YOUR_PROJECT_ID
 
-# Deploy — Cloud Build builds the container for you
+# Build the Docker image
+gcloud builds submit --tag REGION-docker.pkg.dev/YOUR_PROJECT_ID/cloud-run-source-deploy/deriv-hr-platform:latest
+
+# Deploy to Cloud Run with environment variables
 gcloud run deploy deriv-hr-platform \
-  --source . \
-  --region us-central1 \
+  --image REGION-docker.pkg.dev/YOUR_PROJECT_ID/cloud-run-source-deploy/deriv-hr-platform:latest \
+  --platform managed \
+  --region REGION \
   --allow-unauthenticated \
-  --set-env-vars="GOOGLE_API_KEY=AIzaSy...your_key,GOOGLE_GENAI_USE_VERTEXAI=FALSE" \
-  --memory 1Gi \
+  --set-env-vars "GOOGLE_API_KEY=YOUR_API_KEY,GEMINI_API_KEY=YOUR_API_KEY" \
+  --memory 2Gi \
+  --cpu 2 \
   --timeout 300
 ```
 
-When prompted about Artifact Registry, say **Yes**.
+**🔒 IMPORTANT: Secure Your API Key**
 
-It will print a URL like: `https://deriv-hr-platform-xxxxx-uc.a.run.app`
+After deployment, immediately add API restrictions:
 
-**Open that URL — your platform is live on the internet.**
+1. Go to https://console.cloud.google.com/apis/credentials
+2. Find your API key → Click Edit
+3. Under "API restrictions" → Select "Restrict key"
+4. Check ONLY: **Generative Language API**
+5. Save
 
-### Option B: Build & Deploy with Docker
+This prevents your API key from being used for other Google services if exposed.
 
-```bash
-cd deriv_hr
+### Live Production Deployment
 
-# Build
-docker build -t deriv-hr .
-
-# Test locally
-docker run -p 8080:8080 -e GOOGLE_API_KEY=AIzaSy...your_key -e GOOGLE_GENAI_USE_VERTEXAI=FALSE deriv-hr
-
-# Push to Google Container Registry
-gcloud auth configure-docker
-docker tag deriv-hr gcr.io/YOUR_PROJECT_ID/deriv-hr
-docker push gcr.io/YOUR_PROJECT_ID/deriv-hr
-
-# Deploy to Cloud Run
-gcloud run deploy deriv-hr-platform \
-  --image gcr.io/YOUR_PROJECT_ID/deriv-hr \
-  --region us-central1 \
-  --allow-unauthenticated \
-  --set-env-vars="GOOGLE_API_KEY=AIzaSy...your_key,GOOGLE_GENAI_USE_VERTEXAI=FALSE" \
-  --memory 1Gi \
-  --timeout 300
-```
-
-### Option C: ADK Deploy (agent API only — no custom frontend)
-
-```bash
-cd deriv_hr
-adk deploy cloud_run \
-  --project YOUR_PROJECT_ID \
-  --region us-central1 \
-  --agent hr_agent
-```
-
-> Note: This deploys the ADK API server only. For the full platform with frontend, use Option A or B.
+Our production deployment is live at:
+- **URL:** https://deriv-hr-platform-520393715152.africa-south1.run.app
+- **Region:** africa-south1
+- **Resources:** 2Gi memory, 2 CPU
+- **Features:** All 3 phases, 12 tools, full frontend
 
 ---
 
@@ -316,10 +297,34 @@ deriv_hr/
 |---------|-----|
 | `Agent Offline` in dashboard header | Check `hr_agent/.env` has a valid `GOOGLE_API_KEY` |
 | `ModuleNotFoundError: google.adk` | Run `pip install -r requirements.txt` in your venv |
+| `ModuleNotFoundError: deprecated` | Update `requirements.txt` to include `Deprecated>=1.2.14` and reinstall |
 | Server won't start | Make sure you run `python server.py` from `deriv_hr/` directory |
 | Agent returns errors | Verify your Gemini API key at https://aistudio.google.com |
+| `403 PERMISSION_DENIED` | API key is leaked/restricted. Create a new key at https://aistudio.google.com/apikey |
 | Cloud Run deploy fails | Ensure `gcloud` is authenticated and project ID is correct |
+| Chat returns JSON serialization error | Telemetry issue with bytes - ensure `OTEL_SDK_DISABLED=true` is set or use the patched `server.py` |
 | Slack bot doesn't respond | Check tokens in `slack_bot/.env`, ensure bot is added to channel |
+
+## Technical Notes
+
+### Security Best Practices
+- Never commit `.env` files to git (already in `.gitignore`)
+- Always add API key restrictions immediately after creating a key
+- For production, use Google Secret Manager instead of environment variables
+- Rotate API keys every 90 days
+
+### Deployment Architecture
+- **Runtime:** Python 3.11 on Cloud Run
+- **AI Model:** Google Gemini 2.5 Flash via ADK (Agent Development Kit)
+- **Session Management:** In-memory sessions (suitable for demo/small scale)
+- **Frontend:** Single-page dashboard with live chat interface
+- **Backend:** FastAPI server with `/api/chat`, `/api/health` endpoints
+
+### Dependencies Fixed During Development
+- Added `Deprecated>=1.2.14` for ADK telemetry compatibility
+- Monkey-patched `json.dumps` to handle bytes serialization in telemetry
+- Fixed async/await session creation (ADK Runner compatibility)
+- Updated `Part` API usage from `Part.from_text()` to `Part(text=...)`
 
 ---
 
